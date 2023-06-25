@@ -1,10 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import {FormBuilder, FormGroup} from "@angular/forms";
 import {AccountsService} from "../services/accounts.service";
 import {catchError, Observable, throwError} from "rxjs";
 import {AccountDetails} from "../model/account.model";
-
-
+import {FormBuilder, FormGroup} from "@angular/forms";
 @Component({
   selector: 'app-accounts',
   templateUrl: './accounts.component.html',
@@ -24,10 +22,8 @@ export class AccountsComponent implements OnInit{
       accountId : this.fb.control('')
     });
     this.operationFormGroup=this.fb.group({
-
       operationType : this.fb.control(null),
       amount : this.fb.control(0),
-
       description : this.fb.control(null),
       accountDestination : this.fb.control(null),
     })
