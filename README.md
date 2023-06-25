@@ -58,7 +58,7 @@ Après la validation de formulaire il vous affiche un message qui assure que l'o
 Après la validation de formulaire il vous affiche un message qui assure que l'opération crédit  est bien faite
 +Pour effectuer Une Operation de Transfer:
 ![AppScreenshot](/image/Capture9.PNG)
-Après la validation de formulaire il vous affiche un message qui assure que l'opération débit  est bien faite
+Après la validation de formulaire il vous affiche un message qui assure que l'opération Transfer  est bien faite
 ## Conclusion
 une application de gestion des comptes bancaires qui prend en charge les opérations de débit et de crédit, attribue chaque compte à un client et propose des comptes courants et des comptes épargnes offre une solution efficace et pratique pour les utilisateurs. Elle améliore la gestion financière personnelle, facilite les transactions bancaires et permet une meilleure organisation des fonds. Avec une conception sécurisée, cette application peut être un outil précieux pour les individus souhaitant optimiser leur expérience bancaire et leurs habitudes d'épargne.
 
